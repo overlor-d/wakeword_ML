@@ -1,8 +1,8 @@
 {
   "counts": {
     "pos_files": 50,
-    "neg_files": 54,
-    "train_examples": 624
+    "neg_files": 55,
+    "train_examples": 630
   },
   "embedder": {
     "audio_len": 16000,
@@ -10,10 +10,10 @@
     "f_req": 32
   },
   "metrics": {
-    "auc": 0.9989506172839442,
+    "auc": 0.9989797979797914,
     "eer": 1.7208456881689926e-15,
-    "eer_threshold": 0.5137782096862793,
-    "zero_fp_threshold": 0.4119452248082886,
+    "eer_threshold": 0.5427123308181763,
+    "zero_fp_threshold": 0.40794614057405093,
     "fnr_at_zero_fp": 0.0
   },
   "note": "zero_fp_threshold = 0 FP sur TES négatifs. Fiabilité réelle nécessite des négatifs 'vraie vie' (TV, autres voix, etc.)."
