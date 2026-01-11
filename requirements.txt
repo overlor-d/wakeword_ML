@@ -1,0 +1,3 @@
+openwakeword
+sounddevice
+soundfile
